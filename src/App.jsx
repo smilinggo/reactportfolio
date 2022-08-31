@@ -1,11 +1,13 @@
 import Navbar from "./Components/Navbar"
 import Testnav from './Components/Testnav'
+import About from "./Components/About"
 function App() {
 
   return (
     <div>
-      <Testnav />
+      
       <Navbar />
+      <About />
     </div>
   )
 }

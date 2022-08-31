@@ -4,7 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "primary": "#bd5d38",
+        primary: "#bd5d38",
+        
+      },
+      fontFamily: {
+        "primary-text": ["Roboto", 'sans-serif'],
       },
     },
   },
