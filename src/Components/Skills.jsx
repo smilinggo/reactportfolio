@@ -1,7 +1,7 @@
 export default function Skills() {
     return (
         <div>
-            <section className="h-full flex ml-6 py-px max-w-6xl w-3/4 font-primary-text leading-relaxed mb-12">
+            <section className="h-full flex ml-6 py-px max-w-6xl w-3/4 font-primary-text leading-relaxed mb-12" id='Skills'>
                 <div className="h-1/2 self-center">
                     <h2 className="mt-6 mb-8 text-6xl font-semibold">Skills</h2>
                     <div className="mb-3">Programming Languages & Tools</div>

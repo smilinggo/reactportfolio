@@ -1,7 +1,7 @@
 export default function About() {
     return (
         <div>
-        <section className="h-screen flex ml-6 py-px max-w-6xl w-3/4 font-primary-text">
+        <section className="h-screen flex ml-6 py-px max-w-6xl w-3/4 font-primary-text" id='About'>
             <div className="h-1/2 self-center">
                 <h1 className="mt-12 mb-2 text-6xl font-semibold">
                     TONEY
