@@ -1,6 +1,6 @@
 export default function Testnav() {
     return (
-        <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+        <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6 mt-10">
   <div class="flex items-center flex-shrink-0 text-white mr-6">
     <span class="font-semibold text-xl tracking-tight">Tailwind CSS</span>
   </div>
