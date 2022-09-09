@@ -28,7 +28,7 @@ export default function Navbar() {
             </nav >
                     {(toggleMenu && (<div class='lg:hidden bg-primary  text-xl font-primary-text font-medium leading-tight' id='topmenu'>
                         <ul onClick={toggleNav} className='flex flex-col space-y-2'>
-                            <a href='About' className='smooth-scroll'><li className='text-slate-100 hover:text-slate-300'>About</li></a>
+                            <a href='#About' className='smooth-scroll'><li className='text-slate-100 hover:text-slate-300'>About</li></a>
                             <a href="#Experience" className='smooth-scroll'><li className='text-slate-100 hover:text-slate-300'>Experience</li></a>
                             <a href="#Education" className='smooth-scroll'><li className='text-slate-100 hover:text-slate-300'>Education</li></a>
                             <a href="#Skills" className='smooth-scroll'><li className='text-slate-100 hover:text-slate-300'>Skills</li></a>
