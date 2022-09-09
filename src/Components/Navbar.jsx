@@ -25,9 +25,9 @@ export default function Navbar() {
                         <svg className="fill-current h-4 w-4 text-xl" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" id='menu'><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
                     </button>
                 </div>
-            </nav>
+            </nav >
                     {(toggleMenu && (<div class='lg:hidden bg-primary  text-xl font-primary-text font-medium leading-tight' id='topmenu'>
-                        <ul className='flex flex-col space-y-2'>
+                        <ul onClick={toggleNav} className='flex flex-col space-y-2'>
                             <a href='About' className='smooth-scroll'><li className='text-slate-100 hover:text-slate-300'>About</li></a>
                             <a href="#Experience" className='smooth-scroll'><li className='text-slate-100 hover:text-slate-300'>Experience</li></a>
                             <a href="#Education" className='smooth-scroll'><li className='text-slate-100 hover:text-slate-300'>Education</li></a>

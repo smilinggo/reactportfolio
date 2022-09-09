@@ -18,7 +18,7 @@ export default function About() {
                 </div>
             </div>
             </section>
-            <hr class="mb-12" />
+            <hr id="Experience"/>
         </div>
     )
 }

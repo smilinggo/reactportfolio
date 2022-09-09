@@ -1,7 +1,7 @@
 export default function Experience() {
     return (
-        <div>
-        <section className="h-full flex ml-6 py-px max-w-6xl w-3/4 font-primary-text leading-relaxed" id="Experience">
+        <div className="mt-12" >
+        <section className="h-full flex ml-6 py-px max-w-6xl w-3/4 font-primary-text leading-relaxed " >
             <div className="h-1/2 self-center">
                     <h2 className="mt-6 mb-8 text-6xl font-semibold">Experience</h2>
                     <div class="flex-column flex-md-row justify-content-between mb-5">
